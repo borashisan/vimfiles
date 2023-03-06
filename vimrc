@@ -16,7 +16,7 @@ noremap ; :
 
 syntax enable
 
-set clipboard=unnamedplus
+set clipboard=unnamed
 
 set expandtab                                                   " tabを複数のspaceに置き換え
 set tabstop=2                                                   " tabは半角2文字
@@ -93,7 +93,8 @@ let g:neoterm_size=20
 let g:neoterm_autoinsert = 1
 
 "blamer"
-let g:blamer_enabled = 0
+let g:blamer_enabled = 1
+let g:blamer_show_in_insert_modes = 0
 let g:blamer_template = '<commit-short> <committer>, <committer-time> • <summary>'
 
 "airline

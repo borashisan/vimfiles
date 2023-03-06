@@ -1,5 +1,6 @@
 {
-  "eslint.autoFixOnSave": false,
+  "eslint.autoFixOnSave": true,
+  "solargraph.checkGemVersion": false,
   "eslint.filetype": [
     "javascript",
     "javascriptreact",
@@ -12,7 +13,6 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "json",
-    "ruby"
+    "json"
   ]
 }
